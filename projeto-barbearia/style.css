@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 480px) {
+    
+}
+
 @import url('https://fonts.googleapis.com/css2? family= Montserrat+Subrayada & family= Sriracha & display=swap');
 
 
@@ -243,6 +247,13 @@ td, th{
 
 .imagembeneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagembeneficios:hover {
+    opacity: 0.3;
 }
 
 .video {
